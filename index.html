@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspiration Hilltop Bocceball Club</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<h1>Inspiration Hilltop Bocceball Club</h1>
+
+<nav class="navbar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="reservation.html">Reservation</a></li>
+        <li><a href="rules.html">Rules</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h3>Welcome to the club</h3>
+    <p>You can make a court reservation by clicking on the Reservation tab above and follow the google calendar steps</p>
+
+    <h4>Click the button below to signup for the 2026 league. </h4>
+    <div>
+        <strong>Note!</strong> Please sign up before May 6, 2026!
+    </div>
+    <!-- HTML !-->
+    <p>
+<!--    <button class="signupButton" role="button" onclick="openSignupForm()">Sign Up</button>-->
+        <button class="signupButton" role="button" id="signUpButton">Sign Up</button>
+    </p>
+
+    <p>
+        New Venmo account: <b>@AstonChan</b>
+    </p>
+    <p>
+        <b>Club dues for 2026:</b><br/><br/>
+        $15 for individual club member<br/>
+        $20 for joining the league game<br/><br/>
+        E.g. <br/>
+        If you are joining as an individual, just pay $15.<br/>
+        If you are joining as a team of 2, you will pay $50 ($15 x 2 + $20)<br/>
+        If you are joining as a team of 4, you will pay $80 ($15 x 4 + $20)<br/>
+    </p>
+    <p>
+        Please pay your club dues by <i><b>May 8</b></i> using the Venmo account above OR check to <b>Aston Chan</b> or <b>Steve Balmat</b>. No cash please
+
+    </p>
+
+</main>
+
+</body>
+<script>
+<!--    function openSignupForm() {-->
+<!--        window.open("https://forms.gle/Fj3FQY9V6augWG5q9", "_blank");-->
+<!--    }-->
+
+    // Safari needs the below to work
+    document.getElementById("signUpButton").addEventListener("click", () => {
+        window.open("https://forms.gle/Fj3FQY9V6augWG5q9", "_blank");
+        });
+
+</script>
+</html>

@@ -1,0 +1,100 @@
+
+/* style.css */
+
+body{
+margin: 0px;
+}
+main{
+margin-left: 20px;
+margin-right: 20px;
+}
+h1{
+text-align: center;
+}
+.navbar ul{
+list-style-type: none;
+background-color: hsl(0, 0%, 25%);
+padding: 0px;
+margin: 0px;
+overflow: hidden;
+}
+.navbar a{
+color: white;
+text-decoration: none;
+padding: 15px;
+display: block;
+text-align: center;
+}
+.navbar a:hover{
+background-color: hsl(0, 0%, 10%);
+}
+.navbar li{
+float: left;
+}
+td{
+    padding: 10px;
+}
+
+/* CSS */
+.signupButton {
+background-color: #0095ff;
+border: 1px solid transparent;
+border-radius: 3px;
+box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+box-sizing: border-box;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+font-size: 23px;
+font-weight: 400;
+line-height: 1.15385;
+margin: 0;
+outline: none;
+padding: 8px .8em;
+position: relative;
+text-align: center;
+text-decoration: none;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+vertical-align: baseline;
+white-space: nowrap;
+width: 150px;
+height: 60px;
+}
+
+.signupButton:hover,
+.signupButton:focus {
+background-color: #07c;
+}
+
+.signupButton:focus {
+box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.signupButton:active {
+background-color: #0064bd;
+box-shadow: none;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #ff9800;
+  color: white;
+}
+
+.warning-box {
+    background-color: #fef9e7; /* Light yellow background */
+    border-left: 4px solid #f1c40f; /* Yellow left border */
+    color: #9a7d0a; /* Darker yellow text color */
+    padding: 16px; /* Spacing inside the box */
+    margin: 15px 0; /* Spacing around the box */
+    border-radius: 4px; /* Slightly rounded corners */
+    display: flex; /* Helps align content and optional icons */
+    align-items: center;
+}
+
+.warning-box strong {
+    margin-right: 10px; /* Space between the "Warning!" text and the paragraph */
+}
