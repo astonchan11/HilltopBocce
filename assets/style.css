@@ -21,7 +21,7 @@ overflow: hidden;
 .navbar a{
 color: white;
 text-decoration: none;
-padding: 15px;
+padding: 6px;
 display: block;
 text-align: center;
 }
@@ -31,6 +31,7 @@ background-color: hsl(0, 0%, 10%);
 .navbar li{
 float: left;
 }
+
 td{
     padding: 10px;
 }
@@ -97,6 +98,10 @@ box-shadow: none;
 
 .warning-box strong {
     margin-right: 10px; /* Space between the "Warning!" text and the paragraph */
+}
+
+iframe {
+    overflow-y: hidden;
 }
 
 iframe[seamless] {
