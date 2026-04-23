@@ -98,3 +98,9 @@ box-shadow: none;
 .warning-box strong {
     margin-right: 10px; /* Space between the "Warning!" text and the paragraph */
 }
+
+iframe[seamless] {
+    border: none;
+    width: 100%;
+    height: 50px;
+}
