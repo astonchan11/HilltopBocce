@@ -39,7 +39,7 @@ td{
 
 /* CSS */
 .signupButton {
-background-color: #0095ff;
+background-color: gray;
 border: 1px solid transparent;
 border-radius: 3px;
 box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
@@ -56,7 +56,7 @@ outline: none;
 padding: 8px .8em;
 position: relative;
 text-align: center;
-text-decoration: none;
+text-decoration: line-through;
 user-select: none;
 -webkit-user-select: none;
 touch-action: manipulation;
@@ -65,7 +65,10 @@ white-space: nowrap;
 width: 150px;
 height: 60px;
 }
-
+.strikethrough {
+  text-decoration: line-through;
+}
+/*
 .signupButton:hover,
 .signupButton:focus {
 background-color: #07c;
@@ -79,6 +82,7 @@ box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
 background-color: #0064bd;
 box-shadow: none;
 }
+*/
 
 .alert {
   padding: 20px;
