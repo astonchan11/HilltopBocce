@@ -122,7 +122,7 @@ iframe[seamless] {
 
 }
 
-a {
+.slides {
   color: #0056b3;
   text-decoration: underline;
   text-decoration-thickness: 2px;
@@ -131,7 +131,7 @@ a {
   font-size: 2rem;
 }
 
-a:hover {
+.slides:hover {
   color: #0077cc;
   text-decoration-thickness: 3px;
   text-underline-offset: 5px;
