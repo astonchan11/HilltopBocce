@@ -121,3 +121,18 @@ iframe[seamless] {
     left: 1px;
 
 }
+
+a {
+  color: #0056b3;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  transition: all 0.2s ease-in-out;
+  font-size: 2rem;
+}
+
+a:hover {
+  color: #0077cc;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+}
