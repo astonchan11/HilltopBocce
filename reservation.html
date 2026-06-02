@@ -19,7 +19,16 @@
     </div>
 
     <!-- Google Calendar Appointment Scheduling begin -->
-    <iframe src="https://calendar.google.com/calendar/appointments/AcZssZ3hMBjhyiujCq66gy5DzFjqKwJcGyS398K0bbI=?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
+    <iframe id="noCachedIFrame" style="border: 0" width="100%" height="600"></iframe>
     <!-- end Google Calendar Appointment Scheduling -->
 </body>
+<script>
+    // URL for the google calendar appointment scheduling
+    const baseURL = "https://calendar.google.com/calendar/appointments/AcZssZ3hMBjhyiujCq66gy5DzFjqKwJcGyS398K0bbI=?gv=true";
+    const timestamp = Date.now();
+
+    document.getElementById("noCachedIFrame").src=baseURL+"?id=" + timestamp;
+
+</script>
+
 </html>
