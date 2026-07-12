@@ -136,3 +136,14 @@ iframe[seamless] {
   text-decoration-thickness: 3px;
   text-underline-offset: 5px;
 }
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
