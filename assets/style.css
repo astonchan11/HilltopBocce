@@ -109,7 +109,7 @@ iframe {
     overflow-y: hidden;
 }
 
-iframe[seamless] {
+iframe.seamless {
     border: none;
     width: 100%;
     height: 80px;
@@ -146,4 +146,9 @@ iframe[seamless] {
 img {
   max-width: 100%;
   height: auto;
+}
+
+img.menuIcon {
+  width: 32px;
+  height: 32px;
 }
